@@ -6,13 +6,7 @@ public class Controls : MonoBehaviour
     public float jumpSpeed = 20.5f;
     public Vector3 moveDirection = Vector3.zero;
     public float speed = 8.0f;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+    
     // Update is called once per frame
     void Update()
     {
