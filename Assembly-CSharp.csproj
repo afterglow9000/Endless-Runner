@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Controls.cs" />
     <Compile Include="Assets\Scripts\PlanetRotation.cs" />
+    <Compile Include="Assets\Scripts\ScoringSystem.cs" />
     <Compile Include="Assets\Scripts\StarRotation.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/bbuen/source/repos/EndlessRunner/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
