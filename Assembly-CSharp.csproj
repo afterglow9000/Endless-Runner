@@ -67,6 +67,8 @@
     <Compile Include="Assets\Scripts\PlanetRotation.cs" />
     <Compile Include="Assets\Scripts\PlayOrQuit.cs" />
     <Compile Include="Assets\Scripts\Recycle.cs" />
+    <Compile Include="Assets\Scripts\ScoreLoad.cs" />
+    <Compile Include="Assets\Scripts\ScoreSave.cs" />
     <Compile Include="Assets\Scripts\ScoringSystem.cs" />
     <Compile Include="Assets\Scripts\StarPickup.cs" />
     <Compile Include="Assets\Scripts\StarRotation.cs" />
