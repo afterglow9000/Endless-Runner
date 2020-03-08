@@ -15,6 +15,7 @@ public class ScoringSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        score = 0;
         InvokeRepeating("AddScore", 1, 0.1f);
     }
 }
