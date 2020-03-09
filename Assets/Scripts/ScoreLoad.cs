@@ -12,7 +12,7 @@ public class ScoreLoad : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        scoreLoad = PlayerPrefs.GetString("HighScore");
+        scoreLoad = "" + PlayerPrefs.GetInt("HighScore");
 
         highScoreDisplay.GetComponent<Text>().text = scoreLoad.ToString();
 

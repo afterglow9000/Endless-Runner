@@ -32,6 +32,6 @@ public class GenerateSections : MonoBehaviour
 
         Instantiate(newSection, nextPosition, Quaternion.identity);
 
-        NextAxis.xAxis += 50;
+        NextAxis.xAxis += 60;
     }
 }

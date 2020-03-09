@@ -2,12 +2,22 @@
 
 public class CameraFollow : MonoBehaviour
 {
-    Vector3 offset = new Vector3(15, 0, -20);
+    // Public
     public Transform target;
+
+    private void LateUpdate()
+    {
+        Vector3 position1 = transform.position;
+        position1.y = 0;
+        transform.position = new Vector3(position1.x, position1.y, position1.z);
+    }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = target.position + offset;
+        Vector3 position1 = target.transform.position;
+        position1.x += 10;
+        position1.z -= 16;
+        transform.position = new Vector3(position1.x, position1.y, position1.z);
     }
 }
