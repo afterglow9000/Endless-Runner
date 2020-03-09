@@ -11,6 +11,7 @@ public class GameOver : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
+        NextAxis.xAxis = 50f;
         highScore.SetActive(true);
         crash.Play();
         mainAudio.SetActive(false);
